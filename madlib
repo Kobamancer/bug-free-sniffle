@@ -1,0 +1,16 @@
+#
+#
+
+print("This is a madlib!")
+placename = input("Please provide the name of a place:")
+propnoun = input("Please provide the name of a family member or friend:")
+ingverb1 = input("Please provide a verb ending in -ing:")
+noun = input("Please provide a plural noun:")
+ingverb2 = input("Please provide another verb ending in -ing:")
+verb = input("Please provide a verb:")
+adjective = input("Please provide an adjective:")
+
+# output section
+print("I went to", placename, "with", propnoun+ ".")
+print("We were", ingverb1, "at the", noun, "when all of a sudden, they started", ingverb2+ "!")
+print("I tried to get them to", verb, "but they just wouldn't. I was so", adjective+ ".")
